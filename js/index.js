@@ -16,7 +16,7 @@ for (var i = 1; i < 15; i++) {
 content.innerHTML = temp;
 
 document.addEventListener("mouseover", function () {
-  for (var i = 1; i < 15; i++) {
+  for (var i = 1; i < 16; i++) {
     imageZoom(`myimage${i}`, `myresult${i}`);
   }
 });
@@ -28,7 +28,7 @@ window.onresize = function () {
 };
 
 function lensStart() {
-  for (var i = 1; i < 15; i++) {
+  for (var i = 1; i < 16; i++) {
     imageZoom(`myimage${i}`, `myresult${i}`);
   }
 }
