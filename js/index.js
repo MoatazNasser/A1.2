@@ -1,6 +1,6 @@
 var content = document.getElementById("content");
 var temp = "";
-for (var i = 1; i <= 26; i++) {
+for (var i = 1; i <= 38; i++) {
   temp += `
   <div class=" img-zoom-container d-flex flex-column justify-content-center align-items-center my-4 ">
                     <div class=" w-100 ">
@@ -16,19 +16,19 @@ for (var i = 1; i <= 26; i++) {
 content.innerHTML = temp;
 
 document.addEventListener("mouseover", function () {
-  for (var i = 1; i <= 26; i++) {
+  for (var i = 1; i <= 38; i++) {
     imageZoom(`myimage${i}`, `myresult${i}`);
   }
 });
 
 window.onresize = function () {
-  for (var i = 1; i <= 26; i++) {
+  for (var i = 1; i <= 38; i++) {
     imageZoom(`myimage${i}`, `myresult${i}`);
   }
 };
 
 function lensStart() {
-  for (var i = 1; i <= 26; i++) {
+  for (var i = 1; i <= 38; i++) {
     imageZoom(`myimage${i}`, `myresult${i}`);
   }
 }
