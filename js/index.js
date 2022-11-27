@@ -2,6 +2,8 @@ var content = document.getElementById("content");
 var temp = "";
 for (var i = 1; i <= 43; i++) {
   temp += `
+  <h2 class="text-center text-light"> Num: #${i}</h2>
+
   <div class=" img-zoom-container d-flex flex-column justify-content-center align-items-center my-4 ">
                     <div class=" w-100 ">
                         <div class="rounded-4 overflow-hidden w-100">
